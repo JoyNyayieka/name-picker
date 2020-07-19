@@ -1,10 +1,10 @@
-var sunday=0
-var monday=1
-var tuesday=2
-var wednesday=3
-var thursday=4
-var friday=5
-var saturday=6
+var weekday: S=0;
+var weekday: M=1;
+var weekday: T=2;
+var weekday: W=3;
+var weekday: T=4;
+var weekday: F=5;
+var weekday: S=6;
  if (weekday===0 && gender==="male"){
 alert("Your Akan Name is Kwasi!")
 alert("Your Akan Name is Kwasi!");
@@ -61,24 +61,3 @@ else if (weekday===6 && gender==="female"){
 alert("Your Akan Name is Ama!")
 alert("Your Akan Name is Ama!");
 }
-
-}
-
-var DD= document.getElementById("DD").value;
-var MM= document.getElementById("MM").value;
-var YYYY= document.getElementById("YYYY").value;
-var dd=parseInt(DD)
-var mm=parseInt(MM)
-var cc=parseInt((YYYY/100))
-var yy=parseInt(YYYY-cc*100)
-var weekday=parseInt(  ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7
-
-var YYYY= document.getElementById("YYYY");
-var gender=document.getElementById("gender")
-var dd=parseInt(DD);
-var mm=parseInt(MM);
-var cc=parseInt((YYYY/100));
-var yy=parseInt(YYYY-cc*100);
-var weekday=parseInt(  ( (cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10)) + dd ) % 7;
-var result=akanName(DD,MM,dd,mm,cc,yy,gender);
-alert(result);
