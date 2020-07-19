@@ -6,4 +6,5 @@ BDD:
  Identify the user's gender
  Calculate the day of birth of the user
  Alert the user of their Akan name
+ Link to the live site:https://agitated-roentgen-23ad6c.netlify.app/
 MIT Licensing
