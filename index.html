@@ -7,20 +7,26 @@
   <body>
     <p>This website is designed to pick out your <em>Akan name</em> depending on your <strong>birthdate</strong> and <strong>gender.</strong></p>
     <p>Key in your birthdate below;</p>
-      <form action="/action_page.php">
-  <div class="form-group">
-    <label for="birthdate">Date:</label>
-    <input type="text" class="form-control" id="DD">
+    <div class=row>
+
+      <div class=birthday>
+      </div>
+
+      <div class=form-inline>
+        <label for=DD>DD:</label>
+        <input type=number class="form-control" placeholder="DD" id="DD" value=""/>
+      </div>
+
+      <div class=form-inline>
+        <label for=MM>MM:</label>
+        <input type=number class="form-control" placeholder="MM" id="MM" value=""/>
+      </div>
+
+      <div class=form-inline>
+        <label for=YYYY>YYYY:</label>
+        <input type=number class="form-control" placeholder="YYYY" id="YYYY" value=""/>
+      </div>
   </div>
-  <div class="form-group">
-    <label for="month">Month:</label>
-    <input type="text" class="form-control" id="MM">
-  </div>
-  <div class="form-group">
-    <label for="year">Year:</label>
-    <input type="text" class="form-control" id="YY">
-  </div>
-</form>
 
 
   <p>Tick off your <strong>gender</strong> below:</p>
