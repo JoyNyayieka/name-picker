@@ -2,11 +2,6 @@ var weekday = function(CC, YY, MM, DD)
 {
 return ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
 };
-var CC = parseInt(prompt("Enter a number:"));
-var YY = parseInt(prompt("Enter a  number:"));
-var MM = parseInt(prompt("Enter a number"));
-var DD = parseInt(prompt("Enter a number"));
-
 if (DD>31 || DD<=0 ){
 alert("You entered an invalid date. Please try again.")
 }
