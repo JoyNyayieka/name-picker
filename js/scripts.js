@@ -25,9 +25,13 @@ function akanName() {
   console.log(dateIndex);
   console.log(maleNames[dateIndex]);
   console.log(femaleNames[dateIndex]);
-  if (userGender = femaleNames) {
+  if (userGender = "Female")
+      {
+      alert("Your Akan name is " + femaleNames[dateIndex] + ".");
+      }
+ else
+      {
+      alert("Your Akan name is " + maleNames[dateIndex] + ".");
 
-  } else {userGender = maleNames
-  }
-  console.log()
+      }
 }
