@@ -6,42 +6,20 @@
   </head>
   <body>
     <div class="box">
-    <p>This website is designed to pick out your <em>Akan name</em> depending on your <strong>birthdate</strong> and <strong>gender.</strong></p>
-    <p>Key in your birthdate below;</p>
-    <div class=row>
-
-      <div class=birthday>
-      </div>
-
-      <div class=form-inline>
-        <label for=DD>DD:</label>
-        <input type=number class="form-control" placeholder="DD" id="DD" value=""/>
-      </div>
-
-      <div class=form-inline>
-        <label for=MM>MM:</label>
-        <input type=number class="form-control" placeholder="MM" id="MM" value=""/>
-      </div>
-
-      <div class=form-inline>
-        <label for=YYYY>YYYY:</label>
-        <input type=number class="form-control" placeholder="YYYY" id="YYYY" value=""/>
-      </div>
-  </div>
-
-
-  <p>Tick off your <strong>gender</strong> below:</p>
-  <div class="radio">
-    <label><input type="radio"> Female</label>
-  </div>
-  <div class="radio">
-    <label><input type="radio">Male</label>
-  </div>
-
-
-  <button type="submit" class="btn btn-default">Submit</button>
-
-    <script src="js/scripts.js"></script>
+      <p>This website is designed to pick out your <em>Akan name</em> depending on your <strong>birthdate</strong> and <strong>gender.</strong></p>
+      <p>Key in your birthdate below;</p>
     </div>
+    <div>
+      <form class="" action="index.html">
+        <input type="date" name="date" id="Date">
+        <p>Tick off your <strong>gender</strong> below:</p>
+        <select class="form-control" id="userGender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+       <button type="submit" class="btn btn-default" onclick="akanName()">Submit</button>
+      </form>
+    </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
